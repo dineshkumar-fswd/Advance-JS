@@ -22,11 +22,25 @@
     <button onclick="styles()">Change style</button>
     <button onclick="stylesbyclasslist()">Change style by classlist</button>
     <button onclick="listitem()">Addind list item</button>
+    <br />
 
     <ul id="list">
       <li>Apple</li>
       <li>Orange</li>
     </ul>
+
+    <h3>Registration</h3>
+    <form action="">
+      <label for="f-name">First Name</label>
+      <input type="text" name="f-name" id="f-name" /><br />
+      <label for="l-name">Last Name</label>
+      <input type="text" name="l-name" id="l-name" /><br />
+      <label for="email">Email ID</label>
+      <input type="email" name="email" id="email" /><br />
+      <label for="m-number">Mobile Number</label>
+      <input type="number" name="m-number" id="m-number" /><br />
+      <button type="submit" onclick="registerdetails()">Submit</button>
+    </form>
   </body>
 
   <script src="selector.js"></script>

@@ -31,3 +31,20 @@ function listitem() {
   listitem.innerText = "Banana";
   list.appendChild(listitem);
 }
+// getting text inside the h1 tag
+console.log("Innertext", a.innerText);
+
+//getting value from input fields
+function registerdetails() {
+  let f_name = document.getElementById("f-name").value;
+  let l_name = document.getElementById("l-name").value;
+  let email = document.getElementById("email").value;
+  let m_number = document.getElementById("m-number").value;
+
+  console.log(`Details
+    \n First Name :${f_name}
+    \n Second Name :${l_name}`);
+  // let details = document.createElement("p");
+  // details.innerText = "Last Name" + l_name;
+  // document.body.appendChild(details);
+}
